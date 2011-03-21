@@ -1,4 +1,4 @@
-module EasyRoles
+module SaviniRoles
   def self.included(base)
     base.extend ClassMethods
     base.send :alias_method_chain, :method_missing, :roles
@@ -126,6 +126,6 @@ module EasyRoles
 end
 
 class ActiveRecord::Base
-  include EasyRoles
+  include SaviniRoles
 end
 
