@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.authors = ['Platform45','BluntPeak']
   s.date = Time.now
   s.description = %q{This is the Savini project version of easy_roles originally by Platform45 / github}
-  s.extra_rdoc_files = ["CHANGELOG.rdoc", "README.rdoc", "lib/easy_roles.rb"]
+  s.extra_rdoc_files = ["CHANGELOG.rdoc", "README.rdoc"]
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.homepage = %q{http://github.com/bluntpeak/easy_roles}

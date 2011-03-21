@@ -6,7 +6,7 @@ module SaviniRoles
   end
   
   module ClassMethods
-    def easy_roles(name, options = {})
+    def savini_roles(name, options = {})
       
       options[:method] ||= :serialize
       
